@@ -1,0 +1,30 @@
+   39  git push origin newFeature-Navbar
+   40  git add *
+   41  git commit -m "change navbar color (dark)"
+   42  git push origin newFeature-Navbar
+   43  git checkout master
+   44  git checkout newFeature-Navbar
+   45  git checkout master
+   46  git add *
+   47  git commit -m "change navbar color another time"
+   48  git push origin master
+   49  git merge newFeature-Navbar
+   50  git add *
+   51  git commit -m "errore"
+   52  git push origin master
+   53  git clone https://github.com/sena-meucci/progettoStampa.git
+   54  git config user.name "Leonardo Tozzi"
+   55  cd progettoStampa
+   56  git config user.name "Leonardo Tozzi"
+   57  git config user.email "tozzileonardo18@gmail.com"
+   58  git add *
+   59  git commit -m "inserito nome"
+   60  git branch BugFix
+   61  git checkout BugFix
+   62  git add *
+   63  git commit -m "errore risolto in stampa"
+   64  git ckeckout master
+   65  git checkout master
+   66  git merge BugFix
+   67  git branch -d BugFix
+   68  history 30 > comandi.txt
