@@ -8,12 +8,11 @@ Leonardo Tozzi 14/05/2024
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int i ,n;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
-  while (i<n)
-  {
-   cout<<"Bada come la fuma"<<endl; 
+  for(i=0; i<=n; i++){
+    cout<<"Bada come la fuma";
   }
   system("pause");
 }
